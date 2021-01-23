@@ -1,5 +1,8 @@
 import React from "react";
 import "./Header.css";
+import SearchIcon from "@material-ui/icons/Search";
+// import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 
 function Header() {
 	return (
@@ -12,52 +15,29 @@ function Header() {
 
 			<div className="header__search">
 				<input className="header__searchInput" type="text" />
-				{/* logo */}
+				<SearchIcon className="header__searchIcon" />
 			</div>
 
 			<div className="header__nav">
 				<div className="header__option">
-					<span
-						className="header__optionLineOn
-          e"
-					>
-						Hello Guest
-					</span>
-					<span
-						className="header__optionLineTw
-          o"
-					>
-						Sign In
-					</span>
+					<span className="header__optionLineOne">Hello Guest</span>
+					<span className="header__optionLineTwo">Sign In</span>
 				</div>
 
 				<div className="header__option">
-					<span
-						className="header__optionLineOn
-          e"
-					>
-						Returns
-					</span>
-					<span
-						className="header__optionLineTw
-          o"
-					>
-						Orders
-					</span>
+					<span className="header__optionLineOne">Returns</span>
+					<span className="header__optionLineTwo">Orders</span>
 				</div>
 
 				<div className="header__option">
-					<span
-						className="header__optionLineOn
-          e"
-					>
-						Your
-					</span>
-					<span
-						className="header__optionLineTw
-          o"
-					>
-						Prime
+					<span className="header__optionLineOne">Your</span>
+					<span className="header__optionLineTwo">Prime</span>
+				</div>
+
+				<div className="header__optionShoppingCart">
+					<AddShoppingCartIcon />
+					<span className="header__optionLineTwo header__shoppingCartCount">
+						0
 					</span>
 				</div>
 			</div>
