@@ -9,9 +9,7 @@ function Home() {
 				<img
 					className="home__image"
 					src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_45M_v2_1x._CB432458380_.jpg"
-					height="600px"
-					width="1500px"
-					alt=""
+					alt="Hero img"
 				/>
 
 				<div className="home__row">
@@ -45,9 +43,9 @@ function Home() {
 					<Product
 						id="12434557"
 						title="
-            Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 in S Mode, A515-43-R19L, Silver"
+            PlayStation 4 Slim 1TB Consoler"
 						price={599.99}
-						image="https://images-na.ssl-images-amazon.com/images/I/41vMYgD92xL.jpg"
+						image="https://m.media-amazon.com/images/I/71PGvPXpk5L._AC_UY218_.jpg"
 						rating={5}
 					/>
 					<Product
